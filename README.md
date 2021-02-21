@@ -27,9 +27,6 @@ Run the following command on the root project:
 
 Run the following command on the root project:
 
-`docker-compose up`
-
-## Run Spring boot application
 
 # Notes
 
