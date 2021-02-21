@@ -1,23 +1,23 @@
-#Prerequisites
+# Prerequisites
  * Docker installed
  * java 11
  * maven installed
 
-#Docker images for Apache Kafka
+# Docker images for Apache Kafka
  This repo provides build files for Apache Kafka and Confluent Docker images. The images can be found on Docker Hub, and sample Docker Compose files here.
  
-##Docker Image reference
+## Docker Image reference
  Information on using the Docker images is available in the documentation,https://docs.confluent.io/platform/current/installation/docker/installation.html.
 
 # Simple-spring-boot-kafka-project
 
-##Build Project
+## Build Project
 
 Run the following command on the root project:
 
 `mvn clean install`
 
-##Start docker-compose
+## Start docker-compose
 
 Run the following command on the root project:
 
@@ -27,11 +27,8 @@ Run the following command on the root project:
 
 Run the following command on the root project:
 
-`docker-compose up`
 
-## Run Spring boot application
-
-#Notes
+# Notes
 
 Confluent platform : _http://localhost:9021/_ 
 
