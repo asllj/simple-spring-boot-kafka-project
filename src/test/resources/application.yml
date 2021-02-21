@@ -1,0 +1,6 @@
+spring:
+  kafka:
+    consumer:
+      #This property ensures that our consumer group gets the messages we send because the container might start after the sends have completed.
+      auto-offset-reset: earliest
+      group-id: group_id
